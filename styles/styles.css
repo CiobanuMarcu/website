@@ -1,0 +1,101 @@
+#sb[type=text]{
+  width: 20%;
+  margin-left: 70%;
+  overflow: hidden;
+}
+#sb[type=text]:focus{
+  outline-offset: inherit;
+  outline-width: thin;
+}
+body{
+  /*background: linear-gradient(white 40%, orange);*/
+  background-image: url("bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-attachment: fixed;
+  background-size: cover;*/
+
+}
+form{
+  margin-top: -2.2em;
+  right: -1.5em;
+  margin-left: 10em;
+}
+
+#top{
+  white-space: nowrap;
+  background-image: -webkit-gradient(
+    linear, left top, left bottom, from(rgba(50,50,50,0.8)),
+    to(rgba(80,80,80,0.0)), color-stop(.0,#333333)
+  );
+  position: fixed;
+  width: 101%;
+  top: -5px;
+  left: -5px;
+}
+.img{
+  width: 150px;
+  height: 50px;
+  margin-left: 1.5em;
+  margin-top: 0.6em;
+  opacity: 0.6;
+  cursor: pointer;
+}
+a{
+  text-decoration: none
+}
+#menu{
+  width: 90%;
+  height: 50em;
+  background-color:rgba(150, 0, 0, 0.4);
+  border: 0.1em solid black;
+  margin: auto;
+  border-radius: 10%;
+}
+#title{
+  /*background: radial-gradient(yellow 15%, white 42em);*/
+  border-radius: 50%;
+}
+.imgjq{
+  opacity: 1.0;
+}
+
+.leftmenu{
+  height: 99.8%;
+  width: 25em;
+  background-color: rgba(255, 0, 0, 0.6);
+  left: -26em;
+  position: fixed;
+  top: -5px;
+  border-bottom-right-radius: 5%;
+  border-top-right-radius: 5%;
+  border: 0.1em solid black;
+  margin-bottom: 0;
+  margin-top: 0.3em;
+}
+
+.close{
+  margin-left: 20em;
+  margin-top: 0.9em;
+  cursor: pointer;
+}
+.login{
+  margin-top: 5em;
+  margin-left: 2em;
+  white-space: nowrap;
+}
+#loginb{
+  height: 2em;
+  width: 4em;
+  white-space: nowrap;
+
+}
+.white{
+  color: white;
+  white-space: nowrap;
+}
+
+#creare{
+  color: white;
+  font-size: large;
+}
