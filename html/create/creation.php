@@ -1,7 +1,3 @@
-<html>
-<head>
-        <link rel="stylesheet" type="text/css" href="../../styles/style_create.css">
-</head>
 <?php
 include('../login/db.php');
 if(isset($_REQUEST['submit'])!='')
@@ -25,5 +21,4 @@ if(isset($_REQUEST['submit'])!='')
         }
         closeConnection($connection);
 }
-?>
-</html>
+

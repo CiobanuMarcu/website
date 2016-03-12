@@ -9,8 +9,7 @@
 }
 body{
   /*background: linear-gradient(white 40%, orange);*/
-  background-image: url("bg3.jpg");
-  background-repeat: no-repeat;
+  background: url("bg3.jpg") no-repeat;
   background-size: cover;
   /*background-attachment: fixed;
   background-size: cover;*/

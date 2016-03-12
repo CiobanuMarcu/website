@@ -1,5 +1,7 @@
 body{
-    background-image: url("bg3.jpg");
-    background-repeat: no-repeat;
+    background: url("bg3.jpg") no-repeat;
     background-size: cover;
+}
+.info{
+    margin-right: 10em;
 }
